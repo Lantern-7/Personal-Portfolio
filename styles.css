@@ -393,7 +393,7 @@ footer {
   }
 
  .content p {
-     text-align: left;
+     text-align: justify;
  }
   .header {
     display: flex;
