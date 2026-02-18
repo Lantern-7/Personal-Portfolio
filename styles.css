@@ -392,7 +392,9 @@ footer {
     text-align: center;
   }
 
- 
+ .content p {
+     text-align: left;
+ }
   .header {
     display: flex;
     flex-direction: column;
