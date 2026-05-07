@@ -246,8 +246,9 @@ li img {
   text-align: justify;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr;
-  grid-template-areas: "project-card-1 project-card-2";
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas: "project-card-1 project-card-2"
+                        "project-card-3 project-card-4";
   gap: 30px;
 }
 
@@ -258,6 +259,14 @@ li img {
 #card-2 {
     grid-area: project-card-2;
 }
+
+#card-3 {
+    grid-area: project-card-3;
+}
+
+#card-4 {
+    grid-area: project-card-4;
+} 
 
 .project-card {
   box-shadow: 5px 5px 15px rgba(0,0,0,0.08);
